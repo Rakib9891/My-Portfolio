@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: whitesmoke;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(22, 6, 40);
+}
+
+nav {
+  background-color: rgb(17, 17, 76);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+}
+
+.logo {
+  padding: 10px 5px;
+}
+
+.list {
+}
+
+.list ul li a {
+  text-decoration: none;
+}
+
+.list ul li {
+  padding: 10px 5px;
+}
+.list ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.first {
+  background-color: rgba(127, 255, 212, 0);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 23px 0;
+  margin: 130px 0;
+}
+.left {
+  background-color: rgba(165, 42, 42, 0);
+  width: 30%;
+  font-size: 1.9rem;
+}
+.right {
+  background-color: rgba(137, 43, 226, 0);
+  width: 30%;
+}
+
+img {
+  width: 80%;
+  backdrop-filter: blur(10px);
+}
+
+.secundSection {
+  max-width: 80vw;
+  height: 80vh;
+  margin: auto;
+}
+.secundSection h1 {
+  font-size: 1.9rem;
+}
+
+.horizontalLine {
+  background-color: aliceblue;
+  width: 68vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+.verticalLines {
+  background-color: white;
+  height: 93px;
+  width: 1px;
+  margin: 0 120px;
+}
+.imgTop {
+  width: 40px;
+  position: relative;
+  top: -35px;
+  left: -15px;
+}
+
+.verticalTitle {
+  position: relative;
+  font-size: 1.4rem;
+  top: 84px;
+  left: 0px;
+  width: 150px;
+}
+
+.verticalDisc {
+  position: relative;
+  top: 97px;
+  width: 150px;
+  left: 0px;
+  color: grey;
+  font-size: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    width: 250px;
+    height: 200px;
+  }
+  .horizontalLine {
+    display: flex;
+    flex-direction: column;
+  }
+  .imgTop{
+    margin: 10px;
+    height: 20px;
+  }
+}
